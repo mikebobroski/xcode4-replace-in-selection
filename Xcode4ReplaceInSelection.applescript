@@ -29,9 +29,6 @@ if selectedText is "" then return
 
 set newText to replaceString(selectedText, findText, replaceText)
 
-log selectedText
-log newText
-
 -- Line feeds stripped during find/replace, get em back.
 set lineFeeds to getLineFeeds()
 
